@@ -59,7 +59,7 @@ const scrollBox = {
 }
 
 const scrollText = {
-
+    
 }
 
 export default function Body() {
@@ -74,7 +74,7 @@ export default function Body() {
                     </div>
                     <div id="scroll" style={scrollBox}>
                         <p style={scrollText}>Scroll down for more</p>
-                        {/* <i class="fas fa-chevron-down"></i> */}
+                        <i className="fas fa-chevron-down"></i>
                     </div>
                 </div>
             </div>

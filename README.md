@@ -13,7 +13,10 @@ When I originally designed my portfolio, I was a junior in high school and was n
 ### To-Do's (works in progress) 
 - The first section: 
     - figure out what to do with the top of my page (reduce the whitespace at the top, add a navbar/logo, or possibly something else entirely)
-    - add an arrow to the "Scroll down for more" part of my page 
-        - make this part just look better in general (hard to read, text is small, etc.)
+    [ x ] add an arrow to the "Scroll down for more" part of my page 
+        [ x ] make this part just look better in general (hard to read, text is small, etc.)
     - lots and lots of media query work to do with spacing and images and such 
-- Start on the other sections lol 
+- About me
+    - decide to keep or remove the short summary below the "About me" text 
+    - replace lorem ipsum with an actual description of me 
+    - add a css animation to fade in when users scroll down 
