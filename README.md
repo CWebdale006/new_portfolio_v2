@@ -17,6 +17,7 @@ When I originally designed my portfolio, I was a junior in high school and was n
     - ~~add an arrow to the "Scroll down for more" part of my page~~
         - ~~make this part just look better in general (hard to read, text is small, etc.)~~
     - lots and lots of media query work to do with spacing and images and such 
+        - make the "scroll down for more" bigger on bigger screens 
     - make up my mind about what animations to use 
 - About me
     - decide to keep or remove the short summary below the "About me" text 
@@ -24,3 +25,4 @@ When I originally designed my portfolio, I was a junior in high school and was n
     - add a css animation to fade in when users scroll down 
 - Certifications 
     - This'll be easy enough, just add the MTA and CIW certifications as cards with a short description 
+    - if i wanted to be really cool, i'd make a card where one side would show my MTA, and the user could click on the card to 'flip' it and show the CIW 

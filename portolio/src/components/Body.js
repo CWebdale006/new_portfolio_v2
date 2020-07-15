@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import background from '../img/pc.jpg';
+import backgroundImg from '../img/pc.jpg';
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -16,7 +16,7 @@ const body = {
     verticalAlign: "baseline",
     // background: "url(" + background + ") center center cover no-repeat fixed",
     // can't use shorthand for whatever reason
-    backgroundImage: "url(" + background + ")",
+    backgroundImage: "url(" + backgroundImg + ")",
     backgroundPosition: "center center",
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",
@@ -54,7 +54,7 @@ const scrollBox = {
     fontSize: "1.5em",
     textAlign: "center",
     position: "absolute",
-    bottom: "0",
+    bottom: "0px",
     left: "40%",
     right: "40%",
 }
@@ -71,12 +71,12 @@ export default function Body() {
                 <div style={intro} id="intro" >
                     <div id="info" style={info} className="animate__animated animate__fadeIn">
                         <h1 style={{marginTop:'0px'}}> Hi! I'm Connor Webdale</h1>
-                        <h2 style={{marginBottom:'0px'}}>A full-stack M.E.R.N. developer looking for full or part time work</h2>
+                        <h3 style={{marginBottom:'0px'}}>A full-stack M.E.R.N. developer looking for full or part time work</h3>
                     </div>
-                    <div id="scroll" style={scrollBox} className="animate__animated animate__fadeIn"> {/* animate__fadeInUp */}
-                        <p style={scrollText}>Scroll down for more</p>
-                        <i className="fas fa-chevron-down"></i>
-                    </div>
+                </div>
+                <div id="scroll" style={scrollBox} className="animate__animated animate__fadeIn"> {/* animate__fadeInUp */}
+                    <p style={scrollText}>Scroll down for more</p>
+                    <i className="fas fa-chevron-down"></i>
                 </div>
             </div>
         </div>
