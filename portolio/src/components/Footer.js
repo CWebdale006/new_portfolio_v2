@@ -11,12 +11,12 @@ export default function Footer() {
     const bruh = {
         width: "100%",
         height: "200px",
-        backgroundColor: "black"
+        backgroundColor: "#F7F7F7"
     }
 
     return (
         <div style={bruh}>
-            
+            <p>hello? </p>
         </div>
     )
 }

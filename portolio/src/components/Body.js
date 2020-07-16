@@ -26,7 +26,7 @@ const body = {
 
 const cover = {
     height: "100vh",
-    backgroundColor: "rgba(173, 173, 173, 0.4)",
+    backgroundColor: "rgba(173, 173, 173, 0.4)"
 }
 
 const intro = {
@@ -36,7 +36,8 @@ const intro = {
     paddingTop: "35vh",
     paddingBottom: "45vh",
     // marginTop: "-10vh" this style is for if i bring the navbar back in 
-    position: "relative"
+    position: "relative",
+    minHeight: "155px"
 }
 
 const info = {
@@ -56,7 +57,7 @@ const scrollBox = {
     position: "absolute",
     bottom: "0px",
     left: "40%",
-    right: "40%",
+    right: "40%"
 }
 
 const scrollText = {
