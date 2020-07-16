@@ -4,18 +4,21 @@ const Navbar = () => {
     const container = {
         display: "flex",
         flexFlow: "row nowrap",
-        justifyContent: "space-evenly" // center, space-around 
+        justifyContent: "space-evenly", // center, space-around 
+        textAlign: "center"
     }
 
     const item = {
-        marginTop: "8px",
-        marginBottom: "8px"
+        margin: "8px 0px",
+        fontSize: "1.2em",
+        padding: "5px 12px",
+        borderRadius: "10px"
     }
 
     return (
         <div style={container}>
-            <a href="https://pokemonapi-westmec.glitch.me/" target="iframe_1" style={item}>Pokemon Api</a>
-            <a href="https://animate.style/#best-practices" target="iframe_1" style={item}>EZAirlines</a>
+            <a href="https://pokemonapi-westmec.glitch.me/" target="iframe_1" style={item} className="project">Pokemon Api</a>
+            <a href="https://animate.style/#best-practices" target="iframe_1" style={item} className="project">EZAirlines</a>
             {/* <a href="#" target="iframe_1" style={item}></a> */}
         </div>
     )

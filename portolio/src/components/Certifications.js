@@ -7,12 +7,13 @@ import mtaImg from '../img/mta_logo.svg';
 
 export default function Certifications() {
     const background = { 
+        // I know there's a shorthand for this but I can't get it to work in react 
         backgroundImage: "url(" + backgroundImg + ")",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
-        backgroundColor: "white"
+        backgroundColor: "white",
     }
 
     const container = { 
