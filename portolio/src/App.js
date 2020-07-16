@@ -5,6 +5,7 @@ import "./css/App.css";
 import Body from './components/Body';
 import AboutMe from './components/AboutMe';
 import Certifications from './components/Certifications';
+import IFrame from './components/IFrame';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Body />
       <AboutMe />
       <Certifications />
+      <IFrame />
       <Footer />
     </>
   );
