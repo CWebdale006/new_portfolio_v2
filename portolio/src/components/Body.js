@@ -68,7 +68,7 @@ export default function Body() {
     return (
         <div style={body} id="body" >
             <div id="cover" style={cover}>
-                {/* <Navbar />  idk if i'm gonna keep this in so in the meantime it's getting commented out */}
+                {/* <Navbar /> idk if i'm gonna keep this in so in the meantime it's getting commented out */}
                 <div style={intro} id="intro" >
                     <div id="info" style={info} className="animate__animated animate__fadeIn">
                         <h1 style={{marginTop:'0px'}}> Hi! I'm Connor Webdale</h1>

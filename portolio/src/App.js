@@ -5,6 +5,7 @@ import "./css/App.css";
 import Body from './components/Body';
 import AboutMe from './components/AboutMe';
 import Certifications from './components/Certifications';
+import Projects from './components/Projects';
 import IFrame from './components/IFrame';
 import Footer from './components/Footer';
 
@@ -14,7 +15,8 @@ function App() {
       <Body />
       <AboutMe />
       <Certifications />
-      <IFrame />
+      <Projects />
+      {/* <IFrame /> */}
       <Footer />
     </>
   );
