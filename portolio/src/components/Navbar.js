@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * Originally was going to have a sticky nav in my site, ended up changing my mind but i'm keeping the component just in case 
+ */
+
 export default function Navbar() {
     const container = {
         display: "flex", // or inline flex 

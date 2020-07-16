@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
+// importing images 
 import backgroundImg from '../img/code.jpg';
 import ciwImg from '../img/ciw_logo.jpg';
 import mtaImg from '../img/mta_logo.svg';
 
 export default function Certifications() {
+    // the background for the entire component 
     const background = { 
         // I know there's a shorthand for this but I can't get it to work in react 
         backgroundImage: "url(" + backgroundImg + ")",
@@ -16,6 +18,7 @@ export default function Certifications() {
         backgroundColor: "white",
     }
 
+    // using flexbox to position the items, and adding a background color consistent with the Body.js component 
     const container = { 
         height: "100%",
         display: "flex",
@@ -25,6 +28,7 @@ export default function Certifications() {
         backgroundColor: "rgba(173, 173, 173, 0.4)"
     }
 
+    // just spacing for each ceritifcation so it looks *nice*
     const item = { 
         flexBasis: "30%",
         borderRadius: "20px",
@@ -38,6 +42,7 @@ export default function Certifications() {
         borderRadius: "20px"
     }
 
+    // wanted an hr that looked different from the one i used in the AboutMe.js component 
     const hr = {
         width: "60%",
         textAlign: "left",
@@ -45,6 +50,10 @@ export default function Certifications() {
     }
 
     return (
+        /**
+         * Two card, one for each of my certifications. 
+         * Also, the images link to the respective issuing authorities 
+         */
         <div style={background}>
             <div style={container}>
                 <Card style={{ width: '18rem' }, item} data-aos="fade-right">

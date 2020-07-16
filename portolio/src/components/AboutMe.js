@@ -1,6 +1,8 @@
 import React from 'react';
 
 export default function AboutMe() {
+    // General styling for the text/container 
+    // Also setting up the flexbox for the h1/p tags
     const container = {
         lineHeight: "1.5",
         backgroundColor: "rgba(150, 150, 150, 0.6)",
@@ -26,6 +28,7 @@ export default function AboutMe() {
     }
 
     return (
+        // Uses an animation-on-scroll library 
         <div style={container} data-aos="fade-up">
             <h1 style={h1}>About me</h1>
             <hr />

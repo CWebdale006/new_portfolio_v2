@@ -8,16 +8,16 @@ import React from 'react';
  */
 
 export default function Footer() {
-    const bruh = {
+    const temp = {
         width: "100%",
         height: "200px",
-        // backgroundColor: "#F7F7F7" taking this out temporarily
-        backgroundColor: "black"
+        backgroundColor: "#F7F7F7" 
+        // backgroundColor: "black"
     }
 
     return (
-        <div style={bruh}>
-            <p>hello? </p>
+        <div style={temp}>
+            
         </div>
     )
 }
