@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/new_portfolio_v2/static/css/main.97806ee5.chunk.css",
+    "main.js": "/new_portfolio_v2/static/js/main.e701d535.chunk.js",
+    "main.js.map": "/new_portfolio_v2/static/js/main.e701d535.chunk.js.map",
+    "runtime-main.js": "/new_portfolio_v2/static/js/runtime-main.3dbf0cca.js",
+    "runtime-main.js.map": "/new_portfolio_v2/static/js/runtime-main.3dbf0cca.js.map",
+    "static/js/2.5ee83b4f.chunk.js": "/new_portfolio_v2/static/js/2.5ee83b4f.chunk.js",
+    "static/js/2.5ee83b4f.chunk.js.map": "/new_portfolio_v2/static/js/2.5ee83b4f.chunk.js.map",
+    "index.html": "/new_portfolio_v2/index.html",
+    "precache-manifest.b88c96cf621642d2f711ab385907300b.js": "/new_portfolio_v2/precache-manifest.b88c96cf621642d2f711ab385907300b.js",
+    "service-worker.js": "/new_portfolio_v2/service-worker.js",
+    "static/css/main.97806ee5.chunk.css.map": "/new_portfolio_v2/static/css/main.97806ee5.chunk.css.map",
+    "static/js/2.5ee83b4f.chunk.js.LICENSE.txt": "/new_portfolio_v2/static/js/2.5ee83b4f.chunk.js.LICENSE.txt",
+    "static/media/code.jpg": "/new_portfolio_v2/static/media/code.aa406719.jpg",
+    "static/media/mta_logo.svg": "/new_portfolio_v2/static/media/mta_logo.d36233c9.svg",
+    "static/media/pc.jpg": "/new_portfolio_v2/static/media/pc.654d2d79.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3dbf0cca.js",
+    "static/js/2.5ee83b4f.chunk.js",
+    "static/css/main.97806ee5.chunk.css",
+    "static/js/main.e701d535.chunk.js"
+  ]
+}
