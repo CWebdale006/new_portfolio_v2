@@ -52,30 +52,38 @@ iframe {
         right: 10vw   !important;
     }
 
-    .aboutMe {
+    .grayBlock {
         width: 90vw   !important;
         margin: 5vw auto   !important;
     }
-    .aboutMe h1 {
+    .grayBlock h1 {
         font-size: 2rem   !important;
     }
-    .aboutMe hr {
+    .grayBlock hr {
         margin: 5px auto   !important;
     }
-    .aboutMe p { 
+    .grayBlock p { 
         padding: 0 5vw   !important;
+        font-size: 1em   !important;
+    }
+    .grayBlock #container a {
         font-size: 1em   !important;
     }
 
     .certifications > div {
         flex-flow: column nowrap   !important;
     }
-
     .certifications .item {
         margin: 5vw   !important;
     }
-
     .certifications .item:first-of-type img {
-        width: 60vw   !important;
+        display: block   !important;
+        width: 50vw   !important;
+        margin: 0 auto   !important;
+    }
+
+    .grayBlock iframe {
+        width: 100%   !important;
+        height: 65vh   !important;
     }
 }

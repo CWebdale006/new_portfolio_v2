@@ -91,7 +91,7 @@ export default function Projects() {
 
     // putting the navbar and iframe components together 
     return (
-        <div style={projects}>
+        <div style={projects} className="grayBlock">
             <h1 style={h1}>Projects</h1>
             {/* <hr style={{marginBottom: "0px"}}/> */}
             <Navbar />
