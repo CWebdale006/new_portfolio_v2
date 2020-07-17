@@ -54,9 +54,9 @@ export default function Certifications() {
          * Two card, one for each of my certifications. 
          * Also, the images link to the respective issuing authorities 
          */
-        <div style={background}>
+        <div style={background} className="certifications">
             <div style={container}>
-                <Card style={{ width: '18rem' }, item} data-aos="fade-right">
+                <Card style={{ width: '18rem' }, item} data-aos="fade-right" className="item">
                     <a href='https://www.microsoft.com/en-us/learning/mta-certification.aspx' target='blank'>
                         <Card.Img variant="top" src={mtaImg} style={img} />
                     </a>
@@ -68,7 +68,7 @@ export default function Certifications() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }, item} data-aos="fade-left">
+                <Card style={{ width: '18rem' }, item} data-aos="fade-left" className="item">
                     <a href='https://www.ciwcertified.com/ciw-certifications/web-development-series/javascript-specialist' target='blank'>
                         <Card.Img variant="top" src={ciwImg} style={img} />
                     </a>

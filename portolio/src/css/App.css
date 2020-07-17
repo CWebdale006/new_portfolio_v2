@@ -36,3 +36,46 @@ iframe {
 .pokemon {
     width: 30vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .body #intro {
+        padding-top: 20vh   !important;
+        height: 60vh   !important;
+        padding-bottom: 20vh   !important;
+    }
+    .body #info {
+        width: 90vw   !important;
+    }
+    .body #scroll { 
+        left: 10vw   !important;
+        width: 80vw   !important;
+        right: 10vw   !important;
+    }
+
+    .aboutMe {
+        width: 90vw   !important;
+        margin: 5vw auto   !important;
+    }
+    .aboutMe h1 {
+        font-size: 2rem   !important;
+    }
+    .aboutMe hr {
+        margin: 5px auto   !important;
+    }
+    .aboutMe p { 
+        padding: 0 5vw   !important;
+        font-size: 1em   !important;
+    }
+
+    .certifications > div {
+        flex-flow: column nowrap   !important;
+    }
+
+    .certifications .item {
+        margin: 5vw   !important;
+    }
+
+    .certifications .item:first-of-type img {
+        width: 60vw   !important;
+    }
+}

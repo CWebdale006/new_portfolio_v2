@@ -66,7 +66,7 @@ const scrollText = {
 
 export default function Body() {
     return (
-        <div style={body} id="body" >
+        <div style={body} id="body" className="body">
             <div id="cover" style={cover}>
                 {/* <Navbar /> idk if i'm gonna keep this in so in the meantime it's getting commented out */}
                 <div style={intro} id="intro" >
