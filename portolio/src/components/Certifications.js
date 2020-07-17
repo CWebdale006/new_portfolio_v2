@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Radium from 'radium';
 
 // importing images 
 import backgroundImg from '../img/code.jpg';
 import ciwImg from '../img/ciw_logo.jpg';
 import mtaImg from '../img/mta_logo.svg';
 
-export default function Certifications() {
+function Certifications(props) {
     // the background for the entire component 
     const background = { 
         // I know there's a shorthand for this but I can't get it to work in react 
@@ -54,7 +55,7 @@ export default function Certifications() {
          * Two card, one for each of my certifications. 
          * Also, the images link to the respective issuing authorities 
          */
-        <div style={background}>
+        <div className="Certifications" style={background}>
             <div style={container}>
                 <Card style={{ width: '18rem' }, item} data-aos="fade-right">
                     <a href='https://www.microsoft.com/en-us/learning/mta-certification.aspx' target='blank'>
@@ -84,3 +85,5 @@ export default function Certifications() {
         </div>
     )
 }
+
+export default Radium(Certifications);
