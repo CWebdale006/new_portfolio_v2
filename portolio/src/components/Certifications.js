@@ -20,6 +20,7 @@ export default function Certifications() {
 
     // using flexbox to position the items, and adding a background color consistent with the Body.js component 
     const container = { 
+        overflow: "hidden",
         height: "100%",
         display: "flex",
         flexFlow: "row wrap",

@@ -29,7 +29,7 @@ When I originally designed my portfolio, I was a junior in high school and was n
 - Certifications 
     - ~~This'll be easy enough, just add the MTA and CIW certifications as cards with a short description~~
         - make the images more similar in size 
-    - if i wanted to be really cool, i'd make a card where one side would show my MTA, and the user could click on the card to 'flip' it and show the CIW 
+    - ~~if i wanted to be really cool, i'd make a card where one side would show my MTA, and the user could click on the card to 'flip' it and show the CIW~~
 - Project Display 
     - ~~Create an a-frame scene and use vr to display each of my websites on a pedestal of sorts~~ (this'll take forever so i'm doing something else)
     - ~~created a place to display my projects using flexbox so that I can easily add more projects in the future~~

@@ -37,7 +37,11 @@ iframe {
     width: 30vw;
 }
 
-@media only screen and (max-width: 600px) {
+.hiddenHr {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
     .body #intro {
         padding-top: 20vh   !important;
         height: 60vh   !important;
@@ -85,5 +89,69 @@ iframe {
     .grayBlock iframe {
         width: 100%   !important;
         height: 65vh   !important;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .body #info {
+        width: 40%   !important;
+        padding: 20px   !important;
+        /* padding-bottom: 30px   !important; */
+    }
+
+    .body #info h1 {
+        font-size: 3.5rem   !important;
+        margin: 0px   !important;
+        padding: 20px 0px   !important;
+    }
+
+    .hiddenHr {
+        display: block;
+    }
+
+    .body #info h3 {
+        font-size: 2rem   !important;
+        line-height: 1.5   !important;
+        padding: 20px 50px   !important;
+    }
+
+    .grayBlock {
+        border-radius: 40px   !important;
+    }
+
+    .grayBlock h1 {
+        font-size: 4rem   !important;
+        margin-top: 20px   !important;
+        padding: 20px   !important;
+        padding-bottom: 0px   !important;
+    }
+
+    .grayBlock hr {
+        width: 70%   !important;
+        margin: 40px auto   !important;
+        margin-top: 20px   !important;
+    }
+
+    .grayBlock p {
+        margin-bottom: 30px   !important;
+        padding: 0px 15%   !important;
+        font-size: 1.7em   !important;
+        line-height: 2.2   !important;
+    }
+
+    .certifications .item .h5 {
+        font-size: 2rem   !important;
+    }
+
+    .certifications .item p {
+        font-size: 1.4rem;
+    }
+
+    .certifications .item:first-of-type img {
+        width: 50%;
+    }
+
+    .certifications img {
+        height: 20vw   !important;
     }
 }
