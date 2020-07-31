@@ -15,7 +15,7 @@ function App() {
       <Body />
       <AboutMe />
       <Certifications />
-      {/* <Projects /> */}
+      <Projects />
       {/* <IFrame /> */}
       <Footer />
     </>
