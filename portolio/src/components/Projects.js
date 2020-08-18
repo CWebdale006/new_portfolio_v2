@@ -46,13 +46,14 @@ const Navbar = () => {
         margin: "8px 0px",
         fontSize: "1.2em",
         padding: "5px 12px",
-        borderRadius: "10px"
+        borderRadius: "10px",
+        textDecoration: "none"
     }
 
     return (
         <div id="container" style={container} onClick={animate}>
-            <a href="https://pokemonapi-westmec.glitch.me/" target="iframe_1" style={item} className="project">Pokemon Api</a>
-            <a href="/" target="iframe_1" style={item} className="project">EZAirlines</a>
+            <a href="https://pokemonapi-westmec.glitch.me/" target="iframe_1" style={item} className="project projectLinks">Pokemon Api</a>
+            <a href="/" target="iframe_1" style={item} className="project projectLinks">EZAirlines</a>
             {/* <a href="https://cwebdale006.github.io/new_portfolio/" target="iframe_1" style={item} className="project">2018 Portfolio</a> */}
         </div>
     )

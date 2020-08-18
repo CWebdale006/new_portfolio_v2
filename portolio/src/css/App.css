@@ -4,7 +4,7 @@ html, body, #root {
     font-family: 'Raleway', sans-serif;
 }
 
-a { 
+.projectLinks { 
     text-decoration: none; 
     color: black;
     background-color: rgba(255, 255, 255, 0.329)
@@ -39,6 +39,11 @@ iframe {
 
 .hiddenHr {
     display: none;
+}
+
+.footer .fab, .footer .fas {
+    font-size: 4em;
+    color: black;
 }
 
 @media only screen and (max-width: 800px) {
