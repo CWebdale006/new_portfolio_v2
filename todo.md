@@ -25,5 +25,8 @@
     - Add a loading screen? 
     - default iframe screen 
     - probably the biggest loose end that I have is that my airline website isn't currently deployed, and I can't link it 
+- Quotes 
+    - As of right now, I only have one quote ii'm interested in displaying from a teacher, but it is still enough to dedicate a section to it i think 
 - Footer 
-    - I want to have a footer, but i don't really have enough social media to create a dedicated section to it (github/linkedin) 
+    - ~~I want to have a footer, but i don't really have enough social media to create a dedicated section to it (github/linkedin)~~
+    - When hovered, the email logo should display text of my email address 
