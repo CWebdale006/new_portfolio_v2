@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe';
 import Certifications from './components/Certifications';
 import Projects from './components/Projects';
 import IFrame from './components/IFrame';
+import Quotes from './components/Quotes';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
       <Body />
       <AboutMe />
       <Certifications />
-      <Projects />
+      {/* <Projects /> */}
       {/* <IFrame /> */}
+      <Quotes />
       <Footer />
     </>
   );
