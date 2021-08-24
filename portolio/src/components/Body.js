@@ -73,7 +73,7 @@ export default function Body() {
                     <div id="info" style={info} className="animate__animated animate__fadeIn">
                         <h1 style={{marginTop:'0px'}}> Hi! I'm Connor Webdale</h1>
                         <hr className="hiddenHr" />
-                        <h3 style={{marginBottom:'0px'}}>A full-stack M.E.R.N. developer looking for full or part time work</h3>
+                        <h3 style={{marginBottom:'0px'}}>A full-stack M.E.R.N. developer looking for my first job in web design.</h3>
                     </div>
                 </div>
                 <div id="scroll" style={scrollBox} className="animate__animated animate__fadeIn"> {/* animate__fadeInUp */}

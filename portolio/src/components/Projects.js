@@ -1,7 +1,7 @@
 import React from 'react'; 
 
 // the active link for the iframe
-let active;
+let active = "https://pokemonapi-westmec.glitch.me/";
 
 function animate(e) {
     if (e.target.href !== active) {
@@ -53,8 +53,7 @@ const Navbar = () => {
     return (
         <div id="container" style={container} onClick={animate}>
             <a href="https://pokemonapi-westmec.glitch.me/" target="iframe_1" style={item} className="project projectLinks">Pokemon Api</a>
-            <a href="/" target="iframe_1" style={item} className="project projectLinks">EZAirlines</a>
-            {/* <a href="https://cwebdale006.github.io/new_portfolio/" target="iframe_1" style={item} className="project">2018 Portfolio</a> */}
+            {/* add more projects here! */}
         </div>
     )
 };
